@@ -12,24 +12,14 @@ const caja = {
     estado: true
 };
 
-console.log(persona); // {nombre: 'Juan Pérez', edad: 30, género: 'Masculino'}
-console.log(persona.nombre); // Juan Pérez
-console.log(persona.edad); // 30
-console.log(persona.género); // Masculino
-console.log(typeof persona); // object
-console.log(typeof persona.nombre); // string
-console.log(typeof persona.edad); // number
-console.log(typeof persona.género); // string
+console.log("Variable persona:", persona, "es de tipo:", typeof persona);
+console.log("Variable nombre:", persona.nombre, "es de tipo:", typeof persona.nombre);
+console.log("Variable edad:", persona.edad, "es de tipo:", typeof persona.edad);
+console.log("Variable género:", persona.género, "es de tipo:", typeof persona.género);
 
-console.log(caja); // {cuadernos: 5, lápices: 10, papel: 100, fotografías: 20, estado: true}
-console.log(caja.cuadernos); // 5
-console.log(caja.lápices); // 10
-console.log(caja.papel); // 100
-console.log(caja.fotografías); // 20
-console.log(caja.estado); // true
-console.log(typeof caja); // object
-console.log(typeof caja.cuadernos); // number
-console.log(typeof caja.lápices); // number
-console.log(typeof caja.papel); // number
-console.log(typeof caja.fotografías); // number
-console.log(typeof caja.estado); // boolean
+console.log("Variable caja:", caja, "es de tipo:", typeof caja);
+console.log("Variable cuadernos:", caja.cuadernos, "es de tipo:", typeof caja.cuadernos);
+console.log("Variable lápices:", caja.lápices, "es de tipo:", typeof caja.lápices);
+console.log("Variable papel:", caja.papel, "es de tipo:", typeof caja.papel);
+console.log("Variable fotografías:", caja.fotografías, "es de tipo:", typeof caja.fotografías);
+console.log("Variable estado:", caja.estado, "es de tipo:", typeof caja.estado);
